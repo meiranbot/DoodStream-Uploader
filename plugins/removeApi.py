@@ -13,7 +13,7 @@ async def removeApiHandler(bot:Update, msg:Message):
         if apiExist(userid):
             removeApiKey(userid)
             await msg.reply_text(
-                "<b>Yᴏᴜʀ Aᴘɪ Kᴇʏ Is Rᴇᴍᴏᴠᴇᴅ Sᴜᴄᴄᴇssꜰᴜʟʟʏ</b>",
+                "<b>Yᴏᴜʀ Aᴘɪ Kᴇʏ Is Rᴇᴍᴏᴠᴇᴅ Sᴜᴄᴄᴇssꜰᴜʟʟʏ 😭</b>",
                 parse_mode = "html"
             )
         else:

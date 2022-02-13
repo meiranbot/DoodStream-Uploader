@@ -17,7 +17,7 @@ async def broadcast_handler(bot:Update, msg:Message):
         message = msg.text.split('/broadcast ')[1]
     except IndexError:
         await msg.reply_text(
-            "<b>Broadcast can't be empty.😒</b>",
+            "<b>𝐇𝐞𝐲 🤬 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐜𝐚𝐧'𝐭 𝐛𝐞 𝐞𝐦𝐩𝐭𝐲.</b>",
             parse_mode = 'html'
         )
     except Exception as e:
